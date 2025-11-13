@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nishanth AM | College Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #e8f0fe;
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 15px;
+      min-height: 100vh;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      color: #1a73e8;
+    }
+    header p {
+      font-size: 1.1rem;
+      margin: 5px 0 0;
+      color: #555;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      width: 100%;
+      max-width: 1000px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(26, 115, 232, 0.2);
+      padding: 20px 25px;
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(26, 115, 232, 0.3);
+    }
+
+    .card h2 {
+      border-bottom: 3px solid #1a73e8;
+      padding-bottom: 8px;
+      margin-bottom: 15px;
+      color: #1a73e8;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    li {
+      margin-bottom: 14px;
+      line-height: 1.5;
+      font-size: 1rem;
+    }
+
+    .project-title {
+      font-weight: 600;
+      color: #0b3d91;
+    }
+    .project-desc {
+      font-style: italic;
+      color: #555;
+      margin-top: 4px;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Nishanth AM</h1>
+    <p>murugu9298@gmail.com</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <span class="project-title">College Enrollment Data Analysis</span><br />
+          <span class="project-desc">Explored enrollment statistics using Python and Tableau.</span>
+        </li>
+        <li>
+          <span class="project-title">Personal Portfolio Website</span><br />
+          <span class="project-desc">Designed a responsive website with HTML, CSS, and JS.</span>
+        </li>
+        <li>
+          <span class="project-title">Grade Prediction Model</span><br />
+          <span class="project-desc">Created a machine learning model to forecast student performance.</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Courses</h2>
+      <ul>
+        <li>Algorithms and Data Structures</li>
+        <li>Database Systems</li>
+        <li>Machine Learning Fundamentals</li>
+        <li>Web Technologies</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Dean’s List, Fall 2024</li>
+        <li>1st Place, College Hackathon 2024</li>
+        <li>Programming Tutor Volunteer</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Nishanth AM. All rights reserved.
+  </footer>
+
+</body>
+</html>
+
